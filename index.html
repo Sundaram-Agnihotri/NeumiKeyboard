@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+<link rel="manifest" href="./assets/site.webmanifest">
+    <title>Working Neumorphism Keyboard</title>
+  </head>
+      <body>
+        <p>
+          <input type="button" value="Light" class="toggle" />
+        </p>
+        <div class="container">
+          <form class="wrapper" name="form">
+            <div class="display">
+              <textarea name="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div class="keys">
+              <input type="button" value="q" name="q" onclick="disp(q.value)" />
+              <input type="button" value="w" name="w" onclick="disp(w.value)" />
+              <input type="button" value="e" name="e" onclick="disp(e.value)" />
+              <input type="button" value="r" name="r" onclick="disp(r.value)" />
+              <input type="button" value="t" name="t" onclick="disp(t.value)" />
+              <input type="button" value="y" name="y" onclick="disp(y.value)" />
+              <input type="button" value="u" name="u" onclick="disp(u.value)" />
+              <input type="button" value="i" name="i" onclick="disp(i.value)" />
+              <input type="button" value="o" name="o" onclick="disp(o.value)" />
+              <input type="button" value="p" name="p" onclick="disp(p.value)" />
+              <input type="button" value="<-" id="backspc" />
+            </div>
+            <div class="keys">
+              <input type="button" value="a" name="a" onclick="disp(a.value)" />
+              <input type="button" value="s" name="s" onclick="disp(s.value)" />
+              <input type="button" value="d" name="d" onclick="disp(d.value)" />
+              <input type="button" value="f" name="f" onclick="disp(f.value)" />
+              <input type="button" value="g" name="g" onclick="disp(g.value)" />
+              <input type="button" value="h" name="h" onclick="disp(h.value)" />
+              <input type="button" value="j" name="j" onclick="disp(j.value)" />
+              <input type="button" value="k" name="k" onclick="disp(k.value)" />
+              <input type="button" value="l" name="l" onclick="disp(l.value)" />
+            </div>
+            <div class="keys">
+              <input type="button" value="z" name="z" onclick="disp(z.value)" />
+              <input type="button" value="x" name="x" onclick="disp(x.value)" />
+              <input type="button" value="c" name="c" onclick="disp(c.value)" />
+              <input type="button" value="v" name="v" onclick="disp(v.value)" />
+              <input type="button" value="b" name="b" onclick="disp(b.value)" />
+              <input type="button" value="n" name="n" onclick="disp(n.value)" />
+              <input type="button" value="m" name="m" onclick="disp(m.value)" />
+            </div>
+            <div class="keys">
+              <input type="button" id="space" value="space" />
+            </div>
+          </form>
+        </div>
+        <script src="./script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>
